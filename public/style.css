@@ -5,6 +5,7 @@
 
 body {
   padding: 10px;
+  font-family: sans-serif;
 }
 
 .replies {
@@ -33,4 +34,9 @@ body {
 
 #submitNewThread {
   margin: 50px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

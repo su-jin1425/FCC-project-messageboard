@@ -32,7 +32,7 @@
         $.ajax({
           type: "GET",
           url: url,
-          data:{thread_id: currentURL[1]},
+          data: `thread_id=${currentURL[1]}`,
           success: function(ele)
           {
             var boardThreads= [];
